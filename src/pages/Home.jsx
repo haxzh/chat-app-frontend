@@ -5,7 +5,7 @@ import ChatArea from './homecomponents/Chat'
 import { io } from 'socket.io-client';
 import { useEffect, useState } from "react";
 
-const socket = io('https://chat-app-server-trai.onrender.com/');
+const socket = io('https://chat-app-backend-1-llty.onrender.com/');
 // const socket = io('http://localhost:5000/');
 
 function Home(){

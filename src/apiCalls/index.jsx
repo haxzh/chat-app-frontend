@@ -8,8 +8,8 @@
 
 import axios from "axios";
 
-export const url = "https://chat-app-server-trai.onrender.com";
-export const localUrl = "http://localhost:5000/";
+export const url = "https://chat-app-backend-1-llty.onrender.com";
+// export const localUrl = "http://localhost:5000/";
 
 export const axiosInstance = axios.create({
     headers: {
