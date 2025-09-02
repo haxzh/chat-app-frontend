@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { loginUser } from "../apiCalls/auth.jsx";
 import { showLoader, hideLoader } from "../redux/LoaderSlice";
 import { useDispatch } from "react-redux"; // <-- Sahi import
